@@ -1,14 +1,21 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "node index.js",
+  "main": "npm install -f",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node nidex.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "node index.js"
+  },
+  "keywords": [
+    "idk"
+  ],
+  "author": "idk",
+  "license": "UNLICENSED",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^8.2.0"
   }
 }
