@@ -1,20 +1,48 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
+//creates readme that appears as shown below using data from inputs.
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.title} ![Github License](https://img.shields.io/badge/license-${data.license}-green.svg)
 
-`;
+  ## Table of Contents
+
+  
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [Contribution](#contribution)
+  5. [Test](#test)
+  6. [Contact](#contact)
+  7. [License](#license)
+  
+
+  ## Description
+  ${data.description}
+
+
+  ## Installation
+  ${data.install}
+
+  
+  ## Usage
+  ${data.usage}
+
+
+  ## Credits
+  ${data.contribution}
+  
+  ## Test
+  ${data.test}
+
+
+  ## Contact
+  Email: ${data.email}   
+  Github: https://github.com/${data.github} 
+
+
+  ## License
+  ${data.license} license is a short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+
+  `;
 }
 
 module.exports = generateMarkdown;
+
