@@ -25,7 +25,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
 
-  ## Credits
+  ## Contributors
   ${data.contribution}
   
   ## Test
